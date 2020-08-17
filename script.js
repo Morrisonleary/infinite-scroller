@@ -1,3 +1,4 @@
+
 const imageContainer = document.getElementById('image-container');
 const loader = document.getElementById('loader');
 
@@ -10,7 +11,7 @@ let isInitialLoad = true;
 
 // Unplash API
 const count = 5;
-const apiKey = config.key;
+const apiKey = 'VAZ5xUdxCXBLrzwU1hLLeTC4q8m4pCJGF6tSp3QW-j8';
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
 //Updated API
